@@ -1,1 +1,146 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Stránka na linedu zkopčená z mé osobní stránky, která zatím běží bohužel stejně jen na localhostu 🙃">
+    <meta name="author" content="Petr Faruzel">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Petr Faruzel</title>
+
+    <!-- jquery -->
+    <script src="thirdparty/jquery-3.4.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="thirdparty/animate.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Roboto|Bitter|Dosis|Open+Sans|&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="stylesheet" type="text/css" href="static/vsb.css">
+</head>
+
+<!-- body-->
+<body>
+<div id="page-container">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-sm navbar-dark noselect" id="main-nav">
+      <span id="main-nav-logo">
+       <img src="icons/logo.png" data-toggle="collapse" data-target="#main-navbar2" id="main-logo">
+       <div>
+           <span class="d-block d-sm-none typewrite">Klikněte na logo!</span>
+           <span class="d-block d-sm-none typewrite" style="animation: typing 1.3s steps(60, end);">Pro zobrazení hlavního menu.</span>
+       </div>
+      </span>
+
+        <div class="collapse navbar-collapse" id="main-navbar2">
+            <ul class="navbar-nav">
+                <!-- Nebuď pussy a nehledej si odkaz v kódu -->
+                <li class="nav-item"><a class="nav-link" href="https://petrfaruzel.eu"><span data-hover="Jsi dostatečně odvážný?">Odkaz do neznáma             </span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="stagger-visualizer"></div>
+    </nav>
+    <!-- content -->
+    <div class="main-content">
+        <div class="homepage-content">
+            <div style="flex: 1; display: flex; align-items: center;">
+                <h1 class="animated fadeInDown" style="margin-bottom: 12px">Vítejte na mém webu</h1> 
+            </div>
+            <div style="flex: 1; margin-bottom: 32px; max-width: 100%">
+                <h2 class="animated fadeIn delay-2s slow" style="margin-bottom: 16px; margin-left: 16px">Jmenuji se</h2>
+                <div id="homepage-name" style="visibility: hidden; margin: auto; text-align: center">
+                    <svg style="max-width: 85%;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="850px" height="150px" viewBox="0 0 850 150" enable-background="new 0 0 850 150" xml:space="preserve">
+                        <g>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M4.032,4.272h32.4c22,0,32.799,12.2,32.799,34.6v13.8c0,22.4-10.8,34.6-32.799,34.6h-10.4v56.999h-22V4.272z
+                            M36.432,67.271c7,0,10.8-3.2,10.8-13.2v-16.6c0-10-3.8-13.2-10.8-13.2h-10.4v42.999H36.432z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M81.229,4.272h59.999v20h-37.999v37h30.199v20h-30.199v42.999h37.999v20H81.229V4.272z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M171.027,24.272h-23v-20h67.999v20h-23V144.27h-22V24.272z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M226.627,4.272h32.6c22.8,0,32.6,10.6,32.6,32.2v8.6c0,14.4-4.6,23.6-14.4,27.6v0.4c11,3.4,14.6,13.8,14.6,29.599v24.6
+                            c0,6.801,0.2,11.801,2.4,17h-22.4c-1.2-3.6-2-5.8-2-17.199v-25.6c0-13-3.8-17.2-13.8-17.2h-7.6v59.999h-22V4.272z M256.627,64.271
+                            c8.2,0,13.2-3.6,13.2-14.8v-10.8c0-10-3.4-14.4-11.2-14.4h-10v40H256.627z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M339.225,4.272h58.199v20h-36.199v39h28.399v20h-28.399v60.999h-22V4.272z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M418.624,4.272h29.8l22.8,139.998h-22l-4-27.8v0.4h-24.999l-4,27.399h-20.399L418.624,4.272z M442.624,97.871l-9.8-69.199
+                            h-0.4l-9.6,69.199H442.624z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M481.822,4.272h32.6c22.799,0,32.599,10.6,32.599,32.2v8.6c0,14.4-4.6,23.6-14.399,27.6v0.4c11,3.4,14.6,13.8,14.6,29.599
+                            v24.6c0,6.801,0.2,11.801,2.4,17h-22.399c-1.2-3.6-2-5.8-2-17.199v-25.6c0-13-3.801-17.2-13.8-17.2h-7.601v59.999h-21.999V4.272z
+                            M511.821,64.271c8.2,0,13.2-3.6,13.2-14.8v-10.8c0-10-3.4-14.4-11.2-14.4h-10v40H511.821z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M561.622,111.071V4.272h22V112.67c0,10,4.2,13.6,11.2,13.6s11.199-3.6,11.199-13.6V4.272h21.2v106.799
+                            c0,22.399-11.2,35.199-32.8,35.199S561.622,133.47,561.622,111.071z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M638.42,124.67l40.8-100.398h-38.8v-20h62.399v19.6l-40.8,100.398h40.8v20H638.42V124.67z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M715.22,4.272h59.999v20h-38v37h30.2v20h-30.2v42.999h38v20H715.22V4.272z"></path>
+                        <path class="path" fill="transparent" stroke="#ffffff" stroke-width="2" d="M787.819,4.272h21.999V124.27h36.2v20h-58.199V4.272z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div style="flex: 1">
+                <h2 class="animated fadeInUp delay-5s" style="text-align: center; margin: 20px;">A rád bych Vám sdělil, že</h2>
+                <h1 class="letter-text" style="text-align: center">&nbsp;</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <span title="Awesome person">&copy; 2020 Petr Faruzel</span>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/petr.faruzel" target="_blank">
+                <svg version="1.1" class="Facebook" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 90 90">
+                    <path d="M90,15.001C90,7.119,82.884,0,75,0H15C7.116,0,0,7.119,0,15.001v59.998
+            C0,82.881,7.116,90,15.001,90H45V56H34V41h11v-5.844C45,25.077,52.568,16,61.875,16H74v15H61.875C60.548,31,59,32.611,59,35.024V41
+            h15v15H59v34h16c7.884,0,15-7.119,15-15.001V15.001z"></path>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/firaxito/" target="_blank">
+                <svg version="1.1" class="Instagram" x="0px" y="0px" width="30px" height="30px"
+                     viewBox="0 0 97.395 97.395">
+                    <path xmlns="http://www.w3.org/2000/svg" d="M12.501,0h72.393c6.875,0,12.5,5.09,12.5,12.5v72.395c0,7.41-5.625,12.5-12.5,12.5H12.501C5.624,97.395,0,92.305,0,84.895
+              V12.5C0,5.09,5.624,0,12.501,0L12.501,0z M70.948,10.821c-2.412,0-4.383,1.972-4.383,4.385v10.495c0,2.412,1.971,4.385,4.383,4.385
+              h11.008c2.412,0,4.385-1.973,4.385-4.385V15.206c0-2.413-1.973-4.385-4.385-4.385H70.948L70.948,10.821z M86.387,41.188h-8.572
+              c0.811,2.648,1.25,5.453,1.25,8.355c0,16.2-13.556,29.332-30.275,29.332c-16.718,0-30.272-13.132-30.272-29.332
+              c0-2.904,0.438-5.708,1.25-8.355h-8.945v41.141c0,2.129,1.742,3.872,3.872,3.872h67.822c2.13,0,3.872-1.742,3.872-3.872V41.188
+              H86.387z M48.789,29.533c-10.802,0-19.56,8.485-19.56,18.953c0,10.468,8.758,18.953,19.56,18.953
+              c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/petr-faruzel/" target="_blank">
+                <svg version="1.1" class="LinkedIn" x="0px" y="0px" width="30px" height="30px"
+                     viewBox="0 0 438.536 438.536">
+                    <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+            C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+            h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+            C438.532,59.576,430.49,40.204,414.41,24.123z M133.618,367.157H67.666V169.016h65.952V367.157z M127.626,132.332
+            c-6.851,6.567-15.893,9.851-27.124,9.851h-0.288c-10.848,0-19.648-3.284-26.407-9.851c-6.76-6.567-10.138-14.703-10.138-24.41
+            c0-9.897,3.476-18.083,10.421-24.556c6.95-6.471,15.942-9.708,26.98-9.708c11.039,0,19.89,3.237,26.553,9.708
+            c6.661,6.473,10.088,14.659,10.277,24.556C137.899,117.625,134.477,125.761,127.626,132.332z M370.873,367.157h-65.952v-105.92
+            c0-29.879-11.036-44.823-33.116-44.823c-8.374,0-15.42,2.331-21.128,6.995c-5.715,4.661-9.996,10.324-12.847,16.991
+            c-1.335,3.422-1.999,8.75-1.999,15.981v110.775h-65.952c0.571-119.529,0.571-185.579,0-198.142h65.952v27.974
+            c13.867-21.681,33.558-32.544,59.101-32.544c22.84,0,41.21,7.52,55.104,22.554c13.895,15.037,20.841,37.214,20.841,66.519v113.64
+            H370.873z"></path>
+                </svg>
+            </a>
+        </div>
+    </footer>
+</div>
+
+<!-- checking device size -->
+<div id="users-device-size">
+    <div id="xs" class="d-block d-sm-none"></div>
+    <div id="sm" class="d-none d-sm-block d-md-none"></div>
+    <div id="md" class="d-none d-md-block d-lg-none"></div>
+    <div id="lg" class="d-none d-lg-block d-xl-none"></div>
+    <div id="xl" class="d-none d-xl-block"></div>
+</div>
+
+<script id="script-data" type="text/javascript" src="static/script.js"></script>
+<script type="text/javascript" src="thirdparty/anime.min.js"></script>
+<script type="text/javascript" src="static/homepage-script.js"></script>
+<script type="text/javascript" src="static/vsb.js"></script>
+
+
+</body>
+</html>
